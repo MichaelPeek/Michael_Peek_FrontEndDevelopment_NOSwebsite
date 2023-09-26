@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
+* {
   box-sizing:border-box;  
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -29,3 +31,714 @@
 
 /* jouw code */
 
+
+
+
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	scroll-behavior: smooth;
+
+	height: 100%;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-feature-settings: "liga", "kern";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+	
+	margin: 0px;
+}
+
+
+section {
+	display: block;
+}
+
+
+img {
+	max-width: 100%;
+	border-radius: 0.25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#sectie_titel {
+	margin: 0px 0px 0.5rem;
+    color: rgb(230, 30, 20);
+    font-size: 1.125rem;
+    font-family: "Effra-Bold", Helvetica, Arial, sans-serif;
+    line-height: 1.11;
+}
+
+
+div {
+	display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 0px 1rem;
+}
+
+
+/*************/
+/* NAVIGATIE */
+/*************/
+
+header {
+	z-index: 999;
+    padding: 0px 0.5rem;
+    height: 4.375rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0.125rem 0.25rem 0px;
+    position: sticky;
+    top: 0px;
+
+	display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 75rem;
+}
+
+
+header nav {
+	display: block;
+    height: 4.375rem;
+}
+
+
+header nav ul {
+	display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    list-style: none;
+}
+
+
+
+header nav li {
+	position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+header nav ul li a img {
+	border-radius: 0%;
+}
+
+
+header button[aria-label="nieuws"] {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 0.5rem;
+    color: rgb(230, 30, 20);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.0167rem;
+    transition: color 150ms ease-in-out 0s;
+    background-color: rgb(255, 255, 255);
+    border: none;
+} 
+
+header button[aria-label="sport"] {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 0.5rem;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.0167rem;
+    transition: color 150ms ease-in-out 0s;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+
+
+
+
+/**************************/
+/* HOOFD, SUB EN OVERIGE ARTKIELEN */
+/**************************/
+
+
+#hoofdartikel {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+#hoofdartikel ul {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+#hoofdartikel h2 {
+	position: absolute;
+	left: 1em;
+	right: 1em;
+	bottom: 1em;
+	color: #ffffff;
+}
+
+#hoofdartikel img {
+	border-radius: 0;
+}
+
+
+
+
+
+#subartikels {
+	margin-bottom: 1.5rem;
+} 
+
+
+#subartikels ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+	padding: 0px 1rem;
+}
+
+#subartikels ul a li img {
+	width: 100%;
+}
+
+#subartikels ul a li h2 {
+	font-weight: 500;
+    font-size: 88%;
+    line-height: 1rem;
+    color: rgb(34, 34, 34);
+	padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+#row_artikel {
+
+}
+
+
+#row_artikel ul {
+	display: flex;
+	flex-direction: column;
+}
+
+
+#row_artikel ul a li {
+	display: flex;
+	gap: 1rem;
+    padding: 1rem 0px;
+	border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+#row_artikel ul a li h2 {
+	font-weight: 500;
+    font-size: 88%;
+    line-height: 1rem;
+    color: rgb(34, 34, 34);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#row_artikel ul a img {
+	width: 30%;
+}
+
+
+
+
+
+/**********************/
+/* CAROUSELS EN VIDEO */
+/**********************/
+
+
+#kijken_carousel {
+    margin: 1.5rem 0px;
+}
+
+
+#kijken_carousel ul {
+	user-select: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+	
+}
+
+
+#kijken_carousel ul li {
+    flex: 0 0 30%;
+	min-width: 0;
+	padding: 0px 1rem 0px 0px;
+	position: relative;
+}
+
+
+#kijken_carousel ul li a section {
+	position: absolute;
+    display: flex;
+    inset: 0px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 1;
+    transform: translate3d(0px, 0px, 0px);
+	width: 85%;
+
+	padding: 25% 1rem 1rem;
+
+	padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+
+#kijken_carousel ul li a section object {
+	margin-bottom: 0.75rem;
+	
+	padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+
+	position: relative;
+    z-index: 1;
+
+	display: inline-flex;
+    max-width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: "Effra-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 3.5rem;
+    background-color: rgb(230, 30, 20);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(0px);
+}
+
+
+#kijken_carousel ul li a section object svg {
+	display: inline-block;
+    flex: 1 0 auto;
+    vertical-align: middle;
+    line-height: 1;
+    fill: currentcolor;
+    width: 1em;
+    height: 1em;
+}
+
+#kijken_carousel ul li a section object span {
+	margin-left: 0.36em;
+}
+
+#kijken_carousel ul li a section h2 {
+	font-family: "Effra-Bold", Helvetica, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 0.875rem;
+    line-height: 1rem;
+	overflow-wrap: anywhere;
+}
+
+
+
+
+
+#videogroot {
+	margin: 0.5rem 0px 2rem;
+}
+
+
+#videogroot ul {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    list-style-type: none;
+}
+
+
+#videogroot ul li {
+	position: relative;
+    overflow: hidden;
+    padding: 1rem 0px;
+    width: 100%;
+    border-bottom: 1px solid rgb(238, 238, 238);
+	border-top: 1px solid rgb(238, 238, 238);
+}
+
+
+#videogroot ul li a section {
+	position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    z-index: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+	padding: 25% 1rem 1rem;
+
+	position: absolute;
+    bottom: 1rem;
+}
+
+
+#videogroot ul li a section object {
+	margin-bottom: 0.75rem;
+
+	padding: 0.3125rem 0.75rem;
+    font-size: 1rem;
+
+	display: inline-flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Effra-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 3.5rem;
+    background-color: rgb(230, 30, 20);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(0px);
+}
+
+
+#videogroot ul li a section object span {
+	margin-left: 0.36em;
+
+    backface-visibility: hidden;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+
+#videogroot ul li a section h2 {
+	color: rgb(255, 255, 255);
+
+	font-weight: 700;
+    font-size: 1.375rem;
+    font-family: 'Effra-Bold', Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+
+	overflow-wrap: anywhere;
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    transition: color 250ms ease-in-out 0s;
+}
+
+
+
+
+
+
+/************/
+/* Meer NOS */
+/************/
+
+
+#meer_nos {
+	margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+    padding: 1.5rem 0px 0px;
+}
+
+
+#meer_nos ul {
+	margin-top: -1.5rem;;
+}
+
+
+#meer_nos ul li {
+	padding: 0px 0px 0px 1rem;
+
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.3px;
+}
+
+
+#meer_nos ul li a {
+	overflow-wrap: anywhere;
+    display: block;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    transition: color 150ms ease-in-out 0s;
+}
+
+
+#meer_nos ul li a section {
+	display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 1rem 1rem 1rem 0px;
+}
+
+
+#meer_nos_svg {
+	display: flex;
+    flex: 0 0 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 240);
+}
+
+
+#meer_nos_tekst {
+	flex: 1 1 auto;
+    margin-left: 1rem;
+}
+
+
+#meer_nos_tekst_titel {
+	display: block;
+    margin-bottom: 0.25rem;
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1;
+    transition: color 150ms ease-in-out 0s;
+}
+
+
+#meer_nos_tekst_inleiding {
+	display: block;
+    color: rgb(102, 102, 102);
+    font-size: 0.875rem;
+}
+
+#meer_nos_line {
+	content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 1rem;
+    background-color: rgb(238, 238, 238);
+    height: 1px;
+}
+
+
+
+
+
+/************/
+/* FOOTER */
+/************/
+
+
+footer {
+	margin-top: 2.5rem;
+    border-top: 1px solid rgb(238, 238, 238);
+
+	display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+#footer_part_1 {
+	flex-shrink: 2;
+    flex-basis: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+
+#footer_part_1 button {
+	padding: 1rem 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    background: none;
+    text-align: left;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+#footer_part_1 button section {
+	padding: 0px;
+
+	display: flex;
+    flex-flow: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+#footer_part_1 a {
+	padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(238, 238, 238);
+
+	overflow-wrap: anywhere;
+    display: block;
+    color: rgb(230, 30, 20);
+    font-weight: 500;
+    line-height: 1.14;
+    transition: color 150ms ease-in-out 0s;
+}
+
+#footer_part_1 a section {
+	padding: 0px;
+
+	display: flex;
+    flex-flow: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+
+
+
+#footer_part_2 {
+    padding: 0px 2rem 2rem;
+	margin-right: 2.5rem;
+}
+
+
+#footer_part_2 h2 {
+    margin: 1rem 0px;
+}
+
+
+#footer_part_2 ul {
+	margin: 1rem 0px 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+#footer_part_2 ul li a {
+	display: inline-block;
+    margin-bottom: 1rem;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    letter-spacing: 0.01875rem;
+    font-weight: 500;
+    line-height: 1.13;
+    transition: color 150ms ease-in-out 0s;
+}
+
+
+
+
+
+#footer_part_3 {
+	border-top: 1px solid rgb(238, 238, 238);
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+#footer_part_3 a svg[aria-label="Link naar de homepage"] {
+	color: rgb(148, 148, 148);
+}
+
+
+#footer_part_3 section[aria-label="socials"] {
+	display: flex;
+    margin-top: 0.6875rem;
+}
+
+
+#footer_part_3 section[aria-label="socials"] a {
+	flex: 0 0 auto;
+    margin: 0.625rem;
+    background-color: rgb(230, 30, 20);
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    transition: transform 150ms ease-in-out 0s;
+}
+
+
+#footer_part_3 section[aria-label="socials"] a svg {
+	transform: scale(0.8);
+}
+
+
+#footer_part_3 section[aria-label="credits"] {
+	display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    border-top: 1px solid rgb(238, 238, 238);
+    font-weight: 500;
+}
+
+
+#footer_part_3 section[aria-label="credits"] small {
+	font-size: 1rem;
+	color: rgb(102, 102, 102);
+}
+
+#footer_part_3 section[aria-label="credits"] a {
+	color: rgb(102, 102, 102);
+}
