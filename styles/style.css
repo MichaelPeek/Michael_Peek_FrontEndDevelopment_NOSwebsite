@@ -426,9 +426,8 @@ header nav ul li ol:hover {
 #kijken_carousel ul {
 	user-select: none;
     display: flex;
-    margin: 0px;
-    padding: 0px;
-	overflow: hidden;
+	margin-right: -1rem;
+	overflow: scroll;
 }
 
 
@@ -492,7 +491,6 @@ header nav ul li ol:hover {
 	color: rgb(255, 255, 255);
 	font-size: 0.875rem;
     line-height: 1rem;
-	overflow-wrap: anywhere;
 }
 
 
@@ -500,7 +498,7 @@ header nav ul li ol:hover {
 
 
 #videogroot {
-	margin: 0.5rem 0px 2rem;
+	margin: 0px 0px 2rem;
 }
 
 
@@ -594,7 +592,6 @@ header nav ul li ol:hover {
 
 
 #meer_nos {
-	margin-bottom: 2rem;
     border-radius: 0.25rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
     padding: 1.5rem 0px 0px;
@@ -700,20 +697,6 @@ footer {
     flex-basis: auto;
     flex-direction: column;
     display: flex;
-}
-
-
-#footer_part_1 button {
-	padding: 1rem 2rem;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-image: initial;
-    border-bottom: 1px solid rgb(238, 238, 238);
-    background: none;
-    text-align: left;
-    font-weight: 500;
-    cursor: pointer;
 }
 
 
@@ -838,4 +821,135 @@ footer {
 
 #footer_part_3 section[aria-label="credits"] a {
 	color: rgb(102, 102, 102);
+}
+
+
+
+
+/**********/
+/* POPUPS */
+/**********/
+
+
+object[aria-label="popup"] {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+object[aria-label="popup"]:target {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1000;
+}
+
+
+object[aria-label="popup"] section[aria-label="popup_center"] {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+
+
+object[aria-label="popup"] section[aria-label="popup_content"] {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	color: #666;
+	line-height: 1.4;
+	padding-bottom: 60px;
+}
+
+object[aria-label="popup"] section a[aria-label="sluit formulier"] {
+	position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    z-index: 9999;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+} 
+
+
+section[aria-label="popup_content"] ul li {
+	width: 100%;
+    min-height: auto;
+    margin: 11px 0 0;
+    padding: 11px;
+	border: 1px solid rgba(156,172,186,0.3);
+    border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	transition: transform 100ms ease-in-out, box-shadow 100ms ease-in-out;
+}
+
+
+section[aria-label="popup_content"] ul li:first-child {
+	margin-top: 10%;
+}
+
+
+section[aria-label="popup_content"] ul li:hover {
+	box-shadow: 0 2px 4px 0 rgba(186,200,211,0.75);
+    transform: translateY(-5%);
+}
+
+section[aria-label="popup_content"] ul li h4 {
+    max-width: calc(100% - (100px + 11px));
+    margin-left: auto;
+	font-family: "Helvetica neue","BlinkMacSystemFont","-apple-system","Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+}
+
+
+section[aria-label="popup_content"] ul li span {
+	text-align: left;
+    width: 100%;
+    max-width: calc(100% - (100px + 11px));
+    margin: initial;
+    margin-left: auto;
+	font-family: "BlinkMacSystemFont","-apple-system","Segoe UI","Roboto",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    display: block;
+}
+
+
+section[aria-label="popup_content"] ul li span a {
+	color: #E61E14;
+    text-decoration: underline;
+}
+
+
+section[aria-label="popup_content"] ul li figure {
+	background-image: url(../images/formulier.png);
+	float: left;
+	margin: initial;
+	background-size: 670px;
+	height: 60px;
+	width: 100px;
+}
+
+figure[aria-label="formulier_img_1"] {
+	background-position: -270px 0;
+}
+
+figure[aria-label="formulier_img_2"] {
+	background-position: -405px 0;
+}
+
+figure[aria-label="formulier_img_3"] {
+	background-position: -540px 0;
 }
