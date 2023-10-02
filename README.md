@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Michael Peek
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://nos.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  NOS homepage
+  <img src="readme-images/NOS_voorpagina_overnemen.png" width="375px" alt="homepagina van NOS">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  NOS artiekel
+  <img src="readme-images/artikelpagina.png" width="375px" alt="Artikel pagina van het NOS">
  
 </details>
 
@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  <img src="readme-images/toegankelijkhijdstest.jpg">
 
 </details>
 
@@ -68,13 +68,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.jpeg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschets.jpeg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdownschets.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -88,7 +88,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ moet nog beginnen met de website maken, heb de codepen opdrachten die in de werkgroep geven worden gemaakt
 
 
   ### Agenda voor meeting
@@ -104,7 +104,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - niet erg dat ik nog niet met de website bezig ben omdat ik wel van de codepen opdrachten aan het leren ben
   - punt 2
   - nog een punt
   - ...
@@ -121,7 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  ben pas begonnen met het maken van de website, gaat nog wat lastig maar, door steeds de NOS website te inspecteren kom al een heel eind.
 
 
   ### Agenda voor meeting
@@ -168,7 +168,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Heb super veel lijnen code aan html en css. html is veel omdat er geen veel content is maar, met de css denk ik dat er veel code dubbel staat, (wil nog kijken of er dingen samengevoegd kunnen worden)
 
 
   ### Agenda voor meeting
@@ -206,14 +206,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  er ging veel goed en veel fout, maar heb ook super veel geleerd.
+  wat er goed gings is het ruslutaat wat ik heb kunnen maken. terwijl ik voor dit vak niks van html en css wist, Daarom heb ik ook zoveel geleerd omdat alles wat ik deed heb ik nooit eerder gedaan.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  een specefiek ding dat goed ging en veel van heb kunnen leren is de popup die ik heb gemaakt met alleen css
+  <img src="readme-images/popup_van_css.png" width="375px" alt="popup ut pure css">
+
+  nog een ander ding dat ik geleerd is hoe hover states werken. En hoe je een img met hover inzoomt zonder dat ze box grooter word.
+
+  Voor de rest heb ik de dingen geleerd uit de opdrachten zoals de Flexbox, Grid, states, sections en de ol, ul, li.
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+  Wat ik lastig vond was het beginnen met het maken van de website. omdat ik niet meteen weet hoe ik alles ga indelen en ik ook niet goed ben om ergens mee te beginnen als er nog niks is of geen voordbeeld is. uiteindelijk kwam ik wel goed opgang eenmaal toen ik de NOS website ging inspecteren en ik ging steeds better en sneller hoe meer ik had gemaakt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het is ook niet zo goed gelukt om niet te veel css te hebben.
+  <img src="readme-images/uhmm.png" width="375px" alt="oeps dat mischien te veel code">
+  waar het daar fout mee ging is dat elke sectie van het NOS in styling gewoon veel anders steeds in is en dus eindig je ook meet veel css styling. En ik weet zeker dat er wel een manier is om het zelfde te maken met veel minder css, maar ik heb het niet gelukt om dat uit te vinden.
+
+  Een ander ding waar ik me zwaar aan iriteer dat het me niet gelukt is met de popup die ik heb gemaakt. Als je de popup wegklikt, dan zet het je scherm weer boven aan de website inplaats van dat blijft waar je gebleven was. Ik heb niks op internet kunnen vinden met hoe je dit oplost omdat het voorbeeld waar ik gevonden heb je de popup maakt had het zelfde probleem en voor de rest kon ik alleen popups vinden die met javascript zijn gemaakt, maar ja ik heb de mijne met css gemaakt.
+
+  verder is niet gelukt om de sectie sport en archief op de homepage toetevoegen. Dit kwam simpel weg omdat er niet genoeg tijd was. Er liggen nog wat losse afbeeldingen in de images folder die voor dat stuk bedoeld waren als aandenken voor wat had kunnen zijn.
+
 </details>
 
 
@@ -229,8 +244,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. NOS website met de inspect tool (gebruikt om bijna de geheele website mee te kunnen maken)
+  2. https://codepen.io/imprakash/pen/GgNMXO (gebruikt om de popup te kunnen maken bij de feedback knop)
+  3. Alle SVG's die in mijn website zitten heb ik direct uit de code van de NOS website gekopieëerd en geplakt.
 
 </details>
