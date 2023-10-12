@@ -369,7 +369,7 @@ header nav ul li ol:hover {
 }
 
 
-#subartikels ul a li h2 {
+#subartikels ul li a h2 {
 	font-weight: 500;
     font-size: 88%;
     line-height: 1rem;
@@ -390,14 +390,14 @@ header nav ul li ol:hover {
 }
 
 
-#row_artikel ul a li {
+#row_artikel ul li a {
 	display: flex;
 	gap: 1rem;
     padding: 1rem 0px;
 	border-bottom: 1px solid rgb(238, 238, 238);
 }
 
-#row_artikel ul a li h2 {
+#row_artikel ul li a h2 {
 	font-weight: 500;
     font-size: 88%;
     line-height: 1rem;
@@ -407,7 +407,7 @@ header nav ul li ol:hover {
     align-items: flex-start;
 }
 
-#row_artikel ul a li figure {
+#row_artikel ul li a figure {
 	max-width: 30%;
 }
 
