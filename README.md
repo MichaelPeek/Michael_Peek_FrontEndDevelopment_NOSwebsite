@@ -90,24 +90,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
  moet nog beginnen met de website maken, heb de codepen opdrachten die in de werkgroep geven worden gemaakt
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - niet erg dat ik nog niet met de website bezig ben omdat ik wel van de codepen opdrachten aan het leren ben
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -123,39 +109,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   ben pas begonnen met het maken van de website, gaat nog wat lastig maar, door steeds de NOS website te inspecteren kom al een heel eind.
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
-</details>
-
-
-
-
-
-## Toegankelijkheidstest 2/2 (week 4)
-
-<details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
 </details>
 
 
@@ -169,25 +122,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Heb super veel lijnen code aan html en css. html is veel omdat er geen veel content is maar, met de css denk ik dat er veel code dubbel staat, (wil nog kijken of er dingen samengevoegd kunnen worden)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -249,5 +183,48 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. NOS website met de inspect tool (gebruikt om bijna de geheele website mee te kunnen maken)
   2. https://codepen.io/imprakash/pen/GgNMXO (gebruikt om de popup te kunnen maken bij de feedback knop)
   3. Alle SVG's die in mijn website zitten heb ik direct uit de code van de NOS website gekopieëerd en geplakt.
+
+</details>
+
+
+
+
+
+## Eindgesprek (week 5)
+
+<details>
+  <summary>uitwerken na eindgesprek</summary>
+
+  ### Stand van zaken
+  Bij het eindgesprek was ik blij met het resultaat. Er zijn nog wel dingen die nog eventjes aangepast moeten worden maar, ik ben met een goed gevoel uit het gesprek gekomen omdat ik nu zag dat ik voor mij doen een heel goed eindresultaat heb kunnen maken.
+
+  Maar ookall is het eindresultaat voor mij doen goed, is het nog niet goed genoeg om een voldoende te krijgen vanwege een paar foutjes en error in de code die er gewoon niet in hooren en ik nu nog moet aanpassen om nog een voldoende te kunnen krijgen.
+
+  deze aanpassingen zijn:
+  1 de 'a' tags staan soms tussen de 'ul' en de 'li' in en moeten allemaal achter de 'li' verplaats worden.
+
+  2 de linkjes naar de index werkte nog niet en moet dat wel doen.
+
+  3 De index pagina mist nog een h1 titel en moet dus nog worden toegevoegd.
+
+  4 op sommige stukjes in de html hebben de 'h2' children die ook 'h2' zijn. dit moet natuurlijk naar 'h3' gezet worden omdat de parrent van een 'h' altijd een klijner getal moet zijn.
+
+  5 de popup die ik met alleen css heb gemaakt kan nog verbeterd worden bij het wegklikken ervan dat je niet naar het begin van de pagina word gezet. Dit kan ik fixen door de 'href' van het kruisje in te vullen met de 'id' tag van de section waar de knop voor de popup te krijgen staat.
+
+  6 en als laatst had ik in de readme bestand wel de toegankelijkshijd test formelier toegevoegd maar, perongeluk eentje die niet is ingevuld. dit moet ik nog wijzigen naar de wel ingevulde test formulier.
+
+</details>
+
+
+
+
+
+## 11/12 Oktober
+
+<details>
+  <summary>de fouten en errors fixen</summary>
+
+  ### Stand van zaken
+  alle onderdelen die ik na het eindgesprek nog moest verbeteren is nu gedaan.
 
 </details>
